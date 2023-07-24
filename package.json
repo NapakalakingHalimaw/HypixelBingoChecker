@@ -1,0 +1,39 @@
+{
+  "name": "hypixelbingochecker",
+  "version": "1.0.0",
+  "description": "Discord bot used to check missing goals in Bingo on Hypixel Skyblock",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "register": "node deploy-commands.js",
+    "start": "node app.js",
+    "clear": "node clear-commands.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NapakalakingHalimaw/HypixelBingoChecker.git"
+  },
+  "keywords": [
+    "Discord",
+    "Bot",
+    "Hypixel",
+    "Skyblock",
+    "Bingo"
+  ],
+  "author": "NapakalakingHalimaw",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/NapakalakingHalimaw/HypixelBingoChecker/issues"
+  },
+  "homepage": "https://github.com/NapakalakingHalimaw/HypixelBingoChecker#readme",
+  "dependencies": {
+    "@discordjs/rest": "^1.7.1",
+    "axios": "^1.4.0",
+    "discord-api-types": "^0.37.50",
+    "discord.js": "^14.11.0",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.45.0"
+  }
+}
